@@ -1,0 +1,126 @@
+{
+    "crianca": {
+        "identificacao": {
+            "nome_completo": "",
+            "cpf": "",
+            "sexo": "",
+            "raca": "",
+            "data_nascimento": "",
+            "numero_cartao_sus": "",
+            "pais_origem": "",
+            "registro_nacional_estrangeiros": "",
+            "protocolo_refugiado": ""
+        },
+        "dados_residenciais": {
+            "cep": "",
+            "logradouro": "",
+            "numero": "",
+            "bairro": "",
+            "complemento": "",
+            "municipio": "",
+            "distrito": "",
+            "subdistrito": "",
+            "numero_unidade_consumidora_energisa": "",
+            "numero_matricula_iptu": ""
+        },
+        "filiacao_1": {
+            "tipo_filiacao": "MAE",
+            "nome_completo": "",
+            "cpf": "",
+            "data_nascimento": "",
+            "pais_origem": "",
+            "registro_nacional_estrangeiros": "",
+            "protocolo_refugiados": "",
+            "sexo": "",
+            "estado_civil": "",
+            "exerce_atividade_profissional": true,
+            "profissao": "",
+            "cep_local_trabalho": "",
+            "reside_no_endereco_da_crianca": true,
+            "falecido": false
+        },
+        "filiacao_2": {
+            "tipo_filiacao": "PAI",
+            "nome_completo": "",
+            "cpf": "",
+            "data_nascimento": "",
+            "pais_origem": "",
+            "registro_nacional_estrangeiros": "",
+            "protocolo_refugiados": "",
+            "sexo": "",
+            "estado_civil": "",
+            "exerce_atividade_profissional": true,
+            "profissao": "",
+            "cep_local_trabalho": "",
+            "reside_no_endereco_da_crianca": true,
+            "falecido": false
+        },
+        "contatos": {
+            "telefone": "",
+            "tipo": "",
+            "nome_contato": "",
+            "email": ""
+        },
+        "entrevista": {
+            "identificacao": {
+                "data_entrevista": "",
+                "hora_entrevista": "",
+                "entrevistador": ""
+            },
+            "entrevistado": {
+                "tipo_responsavel": "",
+                "nome_completo": "",
+                "cpf": "",
+                "data_nascimento": "",
+                "sexo": "",
+                "estado_civil": ""
+            },
+            "unidade_preferencia": {
+                "ano_letivo": "",
+                "etapa": "",
+                "primeira_preferencia_creche": "",
+                "primeira_preferencia_turno": "",
+                "segunda_preferencia_creche": "",
+                "segunda_preferencia_turno": "",
+                "possui_irmao_na_unidade_escolar": false,
+                "nome_irmao_na_unidade": "",
+                "cpf_irmao": "",
+                "unidade_escolar_irmao": ""
+            },
+            "criterios": {
+                "1_crianca_com_deficiencia_estatuto_pcd": false,
+                "2_crianca_sob_guarda_mulher_vitima_violencia_domestica": false,
+                "4_familia_inscrita_auxilio_brasil_ou_programas_renda": false,
+                "5_familia_monoparental": false,
+                "6_familia_possui_mae_economicamente_ativa": false
+            },
+            "dados_complementares": {
+                "quantidade_membros_familia_residem_endereco": 0,
+                "quantidade_membros_contribuem_renda": 0,
+                "valor_renda_familiar": 0,
+                "intolerancia_alimentar": "",
+                "alergia_alimentar": "",
+                "observacoes_familia": "",
+                "observacoes_central_vagas": ""
+            }
+        },
+        "reserva_vaga": {
+            "data_reserva": "2026-02-02",
+            "hora_reserva": "11:24",
+            "funcionario_responsavel": {
+                "nome": "Elisandra Esteves Braga"
+            },
+            "ano_letivo": 2026,
+            "etapa": "Creche III",
+            "turma": "A",
+            "turno": "Matutino",
+            "resultado_contato": "Vaga Aceita",
+            "contato": {
+                "nome_contato": "Maria de Nazaré",
+                "tipo_contato": "Telefone",
+                "telefone_responsavel": "(69) 99245-2273",
+                "email_responsavel": "elisandra@seduc.ro.gov.br"
+            }
+        }
+    }
+}
