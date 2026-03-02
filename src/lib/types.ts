@@ -1,12 +1,12 @@
 
 export interface User {
     id: string,
-    name: string,
+    nome: string,
     email: string,
     senha: string,
     perfil: "USER" | "ADMIN",
     createdAt: string,
-    updatedAte: string,
+    updatedAt: string,
 
 }
 

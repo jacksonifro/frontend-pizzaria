@@ -1,9 +1,9 @@
 "use server"; // Indica que este arquivo será executado no servidor (Server Action do Next.js)
 
 import { apiClient } from "@/lib/api"; // Importa o cliente HTTP responsável por comunicar com a API backend
-import { setToken } from "@/lib/auth";
-
-import { LoginResponse, User, UserAuth } from "@/lib/types";  //Pega o TYPE User que eu criei atraves de Interface 
+import { removeToken, setToken } from "@/lib/auth";
+import { LoginResponse, User } from "@/lib/types";  //Pega o TYPE User que eu criei atraves de Interface 
+import { redirect } from "next/navigation"; // Importa a função de redirecionamento do Next.js para navegação entre páginas
 
 export async function registerAction(
     prevState: { success: boolean; error: string, redirectTo?: string } | null, // Estado anterior controlado pelo useActionState
@@ -75,4 +75,9 @@ export async function loginAction(
 
     }
 
+};
+
+export async function logoutAction() {
+    await removeToken(); // Limpa o token JWT do cookie para efetuar logout
+    redirect("/login"); // Redireciona para a página de login após o logout
 };
